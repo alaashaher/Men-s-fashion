@@ -190,7 +190,7 @@ input[type=text] {
     width: 20%;
     background-color: rgb(15,18,51);
     color: white;
-    margin-top: -305px;
+    margin-top: -300px;
     margin-right: 58px;
     padding-top: 25px;
     padding-bottom: 30px;
@@ -230,8 +230,5 @@ input[type=text] {
     color: white;
 }
 
-.image_desc samp {
-    display: inline-block;
-    margin-left: 150px;
-}
+
 /* new fashion end */
