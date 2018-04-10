@@ -1,0 +1,237 @@
+.right {
+    float: right;
+}
+
+hr {
+    background-color: rgb(15,18,51);
+}
+
+.text_center {
+    text-align: center;
+}
+/* header start */ 
+.lang {
+    margin-left: 100px;
+    background-color: rgb(15,18,51);
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.welcome {
+    margin-top: -20px;
+    color: rgb(15,18,51);
+    font-family: "Blackadder ITC";
+}
+.clint_info_right a {
+    text-decoration: none;
+    color: rgb(15,18,51);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.clint_info_right {
+    margin-right: 100px;
+}
+
+.myaccount {
+    margin-top: -10px;
+}
+
+.clint_info_right img {
+    width: 30px;
+    height: 30px;
+}
+
+.socend_header {
+    margin-top: 30px;
+}
+  
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    margin-left: 30px;
+}
+  
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: -10px;
+    background-color: rgb(15,18,51);
+    border-color:  rgb(15,18,51);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+  
+.search-container button:hover {
+    background: rgb(41, 28, 97);
+}
+
+.site_name {
+    text-align: center;
+    margin-top: -40px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.site_name samp {
+    font-size: 12px;  
+}
+
+.item {
+    margin-right: 130px;
+    margin-top: -30px;
+    font-weight: bold;
+    color: rgb(15,18,51);
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.menu_opation {
+    border-bottom: 1px;
+    width: 100%;
+    height: 80px;
+    border-bottom-style: solid;
+}
+
+.right_menu {
+	width: 60%;
+    margin-top: 2%;
+    margin-left: 1%;
+	position: absolute;
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.right_menu .menu {
+	margin-left: 5%;
+	text-decoration: none;
+	color:  rgb(15,18,51);
+}
+
+.right_menu .menu:hover {
+	color:  rgb(45, 51, 119);
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+.tab {
+    overflow: hidden;
+    margin-top: 100px;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: rgb(15,18,51);
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px;
+    margin-top: 2px;
+    border-bottom-color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 25px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(27, 4, 70);
+    color: white;
+    text-decoration: underline;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(27, 4, 70);
+    color: white;
+    text-decoration: underline;
+}
+
+.header_image {
+    margin-top: -250px;
+   margin-left: 320px;
+}
+
+.header-photo {
+    width: 950px;
+    height: 250px;
+}
+
+.sale_image {
+    margin-left: -50%;
+}
+/* header end */
+
+/* new fashion start */ 
+.our_new img {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.subscribe {
+    width: 20%;
+    background-color: rgb(15,18,51);
+    color: white;
+    margin-top: -305px;
+    margin-right: 58px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 10px;
+    float: right;
+}
+
+.subscribe_title {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subscribe_descripation {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sub_mail input {
+    margin-right: 15px;
+    font-size: 15px;
+    color: rgb(15,18,51);
+}
+
+.sub_mail button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    color: rgb(15,18,51);
+}
+
+.sub_mail button:hover {
+    background-color: rgb(10, 10, 66);
+    border-color: rgb(10, 10, 66);
+    color: white;
+}
+
+.image_desc samp {
+    display: inline-block;
+    margin-left: 150px;
+}
+/* new fashion end */
