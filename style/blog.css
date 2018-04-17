@@ -1007,6 +1007,7 @@ ul.nav.navbar-nav.w3ls-nav {
 }
 figcaption.w3layouts-caption {
     height: 100%;
+    width: 150px;
 }
 figcaption p {
 	font-size:14px;
