@@ -2,303 +2,327 @@
 
 <html lang="en">
 <head>
-  	<meta charset="utf-8">
+    <meta charset="utf-8">
 
-  	<title>Men's Fashion</title>
+    <title>Men's Fashion</title>
 
     <link rel="stylesheet" href="style/chocolat.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="style/blog.css">
+    <link rel="stylesheet" href="style/blog.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    
 
-  	<link rel="shortcut icon" type="image/png" href="image/logo.jpg" sizes="16x16"/>
+
+    <link rel="shortcut icon" type="image/png" href="image/logo.jpg" sizes="16x16"/>
 
 
 </head>
 <body>
-    <!-- start header -->
-		<header id="home">
-            <div class="clint_info">
-                <select class="lang">
-                    <option value="ar">Arbic</option>
-                    <option value="eng" selected>english</option>
-                    <option value="far">farance</option>
-                </select>
-                <div class="clint_info_right right">
-                    <a href="#"> <img src="image/account.svg"> </a>
-                    <a href="#"> <img src="image/wishlist.svg"></a>
-                    <a href="www.facebook.com"><img src="image/facebook-square.svg" class="facebook"></a>
-                    <a href="www.twitter.com"><img src="image/twitter-square.svg" class="twitter"></a>
-                </div>
+<!-- start header -->
+<header id="home">
+    <div class="clint_info">
+        <select class="lang">
+            <option value="ar">Arbic</option>
+            <option value="eng" selected>english</option>
+            <option value="far">farance</option>
+        </select>
+        <div class="clint_info_right right">
+            <a href="#"> <img src="image/account.svg"> </a>
+            <a href="#"> <img src="image/wishlist.svg"></a>
+            <a href="www.facebook.com"><img src="image/facebook-square.svg" class="facebook"></a>
+            <a href="www.twitter.com"><img src="image/twitter-square.svg" class="twitter"></a>
+        </div>
+    </div>
+    <div class="text_center welcome"><samp>We Are here for helping you and we happy for that:) </samp></div>
+
+    <br>
+    <hr>
+    <div class="socend_header">
+        <div class="search-container">
+            <form>
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="site_name">
+            <img src="image/logo.jpg" class="logo">
+            <samp>man's Fashion</samp>
+        </div>
+        <div class="item right"><img src="image/shopping-cart.svg" class="right">0 item-$0.00</div>
+    </div>
+    <br>
+    <hr>
+    <div class="menu_opation">
+        <div class="right_menu">
+            <a href="#home" class="menu">HOME</a>
+            <a href="#new_fashion" class="menu">NEW FASHION</a>
+            <a href="#blog" class="menu">BLOG</a>
+            <a href="#our_team" class="menu">ABOUT US</a>
+            <a href="#footer" class="menu">CONTACT US</a>
+        </div>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="opencours(event, 't-shirt')" id="defaultOpen">Formal</button>
+        <button class="tablinks" onclick="opencours(event, 'WebDeveloping')">Kajol</button>
+        <button class="tablinks" onclick="opencours(event, 'MobileDeveloping')">shoes</button>
+        <button class="tablinks" onclick="opencours(event, 'GraphicsDesign')">Sporting Clothes</button>
+        <button class="tablinks" onclick="opencours(event, 'MoreCourse')">New Collection</button>
+    </div>
+    <div class="header_image"><img src="image/header_photo.jpg" class="header-photo"><img src="image/sale.PNG"
+                                                                                          class="sale_image"></div>
+</header>
+<!-- end header -->
+
+<!-- new fashion start -->
+<section id="new_fashion">
+    <div class="new_fashion_title text_center">"You Can find here Our new Fashion Desgin"</div>
+    <div class="our_new">
+        <img src="image/new_clothes.jpg">
+        <img src="image/new_clothes_1.jpg">
+        <img src="image/choes.jpg">
+    </div>
+    <div class="subscribe">
+        <div class="text_center"><samp class="subscribe_title">SUBSCRIBE US!</samp></div>
+        <br>
+        <samp class="subscribe_descripation"> You can subscribe us by entering you email here and our news will send to
+            you, engoy:)</samp>
+        <br><br><br>
+        <div class="text_center sub_mail"><input type="text" class="mail" value="enter your mail.."><br><br><br>
+            <button>Submit</button>
+        </div>
+    </div>
+    <br><br>
+    <div class="text_center">
+        <button class="viewmore">View More</button>
+    </div>
+</section>
+<!-- new fashion end -->
+
+<!-- blog start -->
+<section id="blog">
+    <div class="text_center new_fashion_title">Our Blog<br>~~~~~***~~~~~<br>"Now, this is our work, enjoy watching it
+        :)"
+    </div>
+    <div class="blog_body">
+        <div id="t-shirt" class="tabcontent">
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog2.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog1.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
             </div>
-            <div class="text_center welcome"><samp>We Are here for helping you and we happy for that:) </samp></div>
 
-            <br><hr>
-            <div class="socend_header">
-                <div class="search-container">
-                    <form>
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-                <div class="site_name">
-                    <img src="image/logo.jpg" class="logo">
-                    <samp>man's Fashion</samp>
-                </div>
-                <div class="item right"><img src="image/shopping-cart.svg" class="right">0 item-$0.00</div>
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog2.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog2.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
             </div>
-            <br><hr>
-            <div class="menu_opation">
-                <div class="right_menu">
-                    <a href="#home" class="menu">HOME</a>
-                    <a href="#new_fashion" class="menu">NEW FASHION</a>
-                    <a href="#blog" class="menu">BLOG</a>
-                    <a href="#our_team" class="menu">ABOUT US</a>
-                    <a href="#footer" class="menu">CONTACT US</a>
-                </div>
+
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog3.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog3.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3 class="buy">Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
             </div>
-           
-            <div class="tab">
-                <button class="tablinks" onclick="opencours(event, 't-shirt')" id="defaultOpen">Formal</button>
-                <button class="tablinks" onclick="opencours(event, 'WebDeveloping')">Kajol</button>
-                <button class="tablinks" onclick="opencours(event, 'MobileDeveloping')">shoes</button>
-                <button class="tablinks" onclick="opencours(event, 'GraphicsDesign')">Sporting Clothes</button>
-                <button class="tablinks" onclick="opencours(event, 'MoreCourse')">New Collection</button>
-            </div>
-            <div class="header_image"><img src="image/header_photo.jpg" class="header-photo"><img src="image/sale.PNG" class="sale_image"></div>
-        </header>        
-    <!-- end header -->
 
-    <!-- new fashion start -->
-        <section id="new_fashion">
-            <div class="new_fashion_title text_center">"You Can find here Our new Fashion Desgin"</div>
-            <div class="our_new">
-                <img src="image/new_clothes.jpg">
-                <img src="image/new_clothes_1.jpg">
-                <img src="image/choes.jpg">
-            </div>
-            <div class="subscribe">
-                <div class="text_center"><samp class="subscribe_title">SUBSCRIBE US!</samp></div>
-                <br>
-                <samp class="subscribe_descripation"> You can subscribe us by entering you email here and our news will send to you, engoy:)</samp>
-                <br><br><br>
-                <div class="text_center sub_mail"><input type="text" class="mail" value="enter your mail.."><br><br><br><button>Submit</button></div>
-            </div>
-            <br><br>
-            <div class="text_center"><button class="viewmore">View More</button></div>
-        </section>
-    <!-- new fashion end -->
-
-    <!-- blog start -->
-        <section id="blog">
-            <div class="text_center new_fashion_title">Our Blog<br>~~~~~***~~~~~<br>"Now, this is our work, enjoy watching it :)"</div>
-            <div class="blog_body">
-                    <div id="t-shirt" class="tabcontent">
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                <a href="image/blog2.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                    <figure class="w3ls-gallery">
-                                        <img src="image/blog1.jpg" class="img-responsive" alt=" " />
-                                        <figcaption class="w3layouts-caption">
-                                            <h3>Buy know</h3><hr class="caption">
-                                            <button class="addtocart">Add to my cart</button>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                                <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-                    
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                <a href="image/blog2.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                    <figure class="w3ls-gallery">
-                                        <img src="image/blog2.jpg" class="img-responsive" alt=" " />
-                                        <figcaption class="w3layouts-caption">
-                                            <h3>Buy know</h3><hr class="caption">
-                                            <button class="addtocart">Add to my cart</button>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                                <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                <a href="image/blog3.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                    <figure class="w3ls-gallery">
-                                        <img src="image/blog3.jpg" class="img-responsive" alt=" " />
-                                        <figcaption class="w3layouts-caption">
-                                            <h3 class="buy">Buy know</h3><hr class="caption">
-                                            <button class="addtocart">Add to my cart</button>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                                <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                <a href="image/blog4.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                    <figure class="w3ls-gallery">
-                                        <img src="image/blog4.jpg" class="img-responsive" alt=" " />
-                                        <figcaption class="w3layouts-caption">
-                                            <h3>Buy know</h3><hr class="caption">
-                                            <button class="addtocart">Add to my cart</button>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                                <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-                        <br>
-                        <hr>
-                        <br><br>
-
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                            <a href="image/blog5.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                <figure class="w3ls-gallery">
-                                    <img src="image/blog5.jpg" class="img-responsive" alt=" " />
-                                    <figcaption class="w3layouts-caption">
-                                        <h3>Buy know</h3><hr class="caption">
-                                        <button class="addtocart">Add to my cart</button>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                            <a href="image/blog6.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                <figure class="w3ls-gallery">
-                                    <img src="image/blog6.jpg" class="img-responsive" alt=" " />
-                                    <figcaption class="w3layouts-caption">
-                                        <h3>Buy know</h3><hr class="caption">
-                                        <button class="addtocart">Add to my cart</button>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                            <a href="image/blog7.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                <figure class="w3ls-gallery">
-                                    <img src="image/blog7.jpg" class="img-responsive" alt=" " />
-                                    <figcaption class="w3layouts-caption">
-                                        <h3>Buy know</h3><hr class="caption">
-                                        <button class="addtocart">Add to my cart</button>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                            <a href="image/blog8.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                <figure class="w3ls-gallery">
-                                    <img src="image/blog8.jpg" class="img-responsive" alt=" " />
-                                    <figcaption class="w3layouts-caption">
-                                        <h3>Buy know</h3><hr class="caption">
-                                        <button class="addtocart">Add to my cart</button>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                        </div>
-
-                        <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                <a href="image/blog9.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                    <figure class="w3ls-gallery">
-                                        <img src="image/blog9.jpg" class="img-responsive" alt=" " />
-                                        <figcaption class="w3layouts-caption">
-                                            <h3>Buy know</h3><hr class="caption">
-                                            <button class="addtocart">Add to my cart</button>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                                <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                            </div>
-
-                            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                    <a href="image/blog10.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                        <figure class="w3ls-gallery">
-                                            <img src="image/blog10.jpg" class="img-responsive" alt=" " />
-                                            <figcaption class="w3layouts-caption">
-                                                <h3>Buy know</h3><hr class="caption">
-                                                <button class="addtocart">Add to my cart</button>
-                                            </figcaption>
-                                        </figure>
-                                    </a>
-                                    <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                                </div>
-
-                                <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                        <a href="image/blog11.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                            <figure class="w3ls-gallery">
-                                                <img src="image/blog11.jpg" class="img-responsive" alt=" " />
-                                                <figcaption class="w3layouts-caption">
-                                                    <h3>Buy know</h3><hr class="caption">
-                                                    <button class="addtocart">Add to my cart</button>
-                                                </figcaption>
-                                            </figure>
-                                        </a>
-                                        <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                                    </div>
-                            
-                                    <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
-                                            <a href="image/blog13.jpg" class="b-link-stripe b-animate-go  thickbox">
-                                                <figure class="w3ls-gallery">
-                                                    <img src="image/blog13.jpg" class="img-responsive" alt=" " />
-                                                    <figcaption class="w3layouts-caption">
-                                                        <h3>Buy know</h3><hr class="caption">
-                                                        <button class="addtocart">Add to my cart</button>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                            <div class="text_center buttom_cap"><a href="#">Details</a></div>
-                                        </div>
-
-
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog4.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog4.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
             </div>
             <br>
-            <div class="text_center"><button class="viewmore  viewmore_">View More</button></div>
-        </section>
-    <!-- blog end -->
+            <hr>
+            <br><br>
 
-    <!-- review start -->
-        <!-- <section id="review">
-            <div></div>
-            <div class="review_title">you can send you review to our mail</div>
-
-
-
-        </section> -->
-    <!-- review end -->
-
-    <!-- sponsor start -->
-    <section id="sponsor">
-            <div class="footer- sponsor"> 
-                <div class="sponsor_body">
-                    <div class="sponsor_title text_center">Sponsor Our Shop!</div>
-                    <div class="sponsor_descripation text_center">If you wnat to help us in our shop lively and successful, help us by sponsoring our work!<br>This will help us bring in more Desgin.<br>You can also sponsor us by giving away free swag at the event!<br><br> &nbsp;
-                        
-                        <div class="text_center"><button class="sponsor_button">Sponsor Us</button></div>
-                    </div>
-                    <br><br>
-                    <div class="location text_center"><b>Our Location:</b>&nbsp; &nbsp;<a href="https://www.google.com/maps/place/Faculty+of+Computers+and+Informatics/@30.4663086,31.1799011,17z/data=!3m1!4b1!4m5!3m4!1s0x14f7df5763892735:0x3d50bea7b9a2b4a2!8m2!3d30.4663086!4d31.1820898?hl=en">Faculty of Computers and Informatics, Al Hezb Al Watani, Qism Banha, Banha</a>  <br><br><b>Telephone:</b>&nbsp; &nbsp; 01123456789</div>
-                </div>
-            </div>    
-        </section>
-    <!-- sponsor end -->
-
-
-    <!-- footer start -->
-        <footer id="footer">    
-            <div class="footer text_center">
-                Hope we see you in our shop<br>All Rights Reserved by Alaa shaher. 2018
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog5.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog5.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
             </div>
-        </footer>
-    <!-- footer end -->
 
-    <script src="javascript/javascript.js"></script>
-    <script async defer
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog6.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog6.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
+            </div>
+
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog7.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog7.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
+            </div>
+
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog8.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog8.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
+            </div>
+
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog9.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog9.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
+            </div>
+
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog10.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog10.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
+            </div>
+
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog11.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog11.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
+            </div>
+
+            <div class="filtr-item" data-category="6, 5, 2" data-sort="Luminous night">
+                <a href="image/blog13.jpg" class="b-link-stripe b-animate-go  thickbox">
+                    <figure class="w3ls-gallery">
+                        <img src="image/blog13.jpg" class="img-responsive" alt=" "/>
+                        <figcaption class="w3layouts-caption">
+                            <h3>Buy know</h3>
+                            <hr class="caption">
+                            <button class="addtocart">Add to my cart</button>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="text_center buttom_cap"><a href="html/second_page.html">Details</a></div>
+            </div>
+
+
+        </div>
+        <br>
+        <div class="text_center">
+            <button class="viewmore  viewmore_">View More</button>
+        </div>
+</section>
+<!-- blog end -->
+
+
+
+<!-- sponsor start -->
+<section id="sponsor">
+    <div class="footer- sponsor">
+        <div class="sponsor_body">
+            <div class="sponsor_title text_center">Sponsor Our Shop!</div>
+            <div class="sponsor_descripation text_center">If you wnat to help us in our shop lively and successful, help
+                us by sponsoring our work!<br>This will help us bring in more Desgin.<br>You can also sponsor us by
+                giving away free swag at the event!<br><br> &nbsp;
+
+                <div class="text_center">
+                    <button class="sponsor_button">Sponsor Us</button>
+                </div>
+            </div>
+            <br><br>
+            <div class="location text_center"><b>Our Location:</b>&nbsp; &nbsp;<a
+                    href="https://www.google.com/maps/place/Faculty+of+Computers+and+Informatics/@30.4663086,31.1799011,17z/data=!3m1!4b1!4m5!3m4!1s0x14f7df5763892735:0x3d50bea7b9a2b4a2!8m2!3d30.4663086!4d31.1820898?hl=en">Faculty
+                of Computers and Informatics, Al Hezb Al Watani, Qism Banha, Banha</a> <br><br><b>Telephone:</b>&nbsp;
+                &nbsp; 01123456789
+            </div>
+        </div>
+    </div>
+</section>
+<!-- sponsor end -->
+
+
+<!-- footer start -->
+<footer id="footer">
+    <div class="footer text_center">
+        Hope we see you in our shop<br>All Rights Reserved by Alaa shaher. 2018
+    </div>
+</footer>
+<!-- footer end -->
+
+<script src="javascript/javascript.js"></script>
+<script async defer
         src="https://maps.googleapis.com/maps/api/js?key=&v=3&callback=initMap">
-    </script>
+</script>
 
 </body>
 </html>

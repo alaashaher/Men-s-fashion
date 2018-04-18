@@ -264,6 +264,13 @@ input[type=text] {
 /* new fashion end */
 
 /*  blog start */
+.blog {
+    height: 800px;
+}
+
+.blog .w3layouts-caption {
+    padding-top: 50px;
+}
 .blog_body {
     margin-left: 50px;
 }
@@ -344,6 +351,10 @@ input[type=text] {
     height: 200px;
     width: 110%;
     margin-left: -5%;    
+}
+
+.sponsor_ {
+    margin-top: 1300px;
 }
 
 .sponsor_body {
