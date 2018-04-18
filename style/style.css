@@ -432,6 +432,12 @@ footer {
     background-color: rgb(15,18,51);
 }
 
+.footer a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /* end footer */
 
 
